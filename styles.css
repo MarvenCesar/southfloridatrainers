@@ -7,9 +7,40 @@
 
 .center-content {
 
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    gap: 20px;
+
 
 }
+
+.video-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.center-content h2 {
+    margin-right: 20px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    font-weight: 550;
+}
+
+.center-content h1 {
+    font-weight: 700;
+}
+
+
+
+
+
+
