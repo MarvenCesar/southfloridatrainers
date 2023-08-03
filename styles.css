@@ -47,16 +47,15 @@
      color: white;
  }
  .card-img-top{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: auto;
 
  }
 
  .whytext {
   
-    font-size: x-large;
-    color: white;
-    padding-left: 30px;
+    font-size: larger;
+    padding-left: 80px;
     
   }
   
@@ -64,7 +63,7 @@
     padding-left: 100px; 
   }
   .bg {
-    background-color: black;
+
     width: 100vw;
     height: auto; 
     max-height: 600px;
