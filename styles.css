@@ -13,17 +13,18 @@
     align-items: center;
     padding: 40px;
     gap: 20px;
-
+    width: 100%
 
 }
 
 .video-container {
-   
+   background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 40px;
+    padding: 0px;
+    width: 100vw;
 }
 
 .center-content h2 {
@@ -33,12 +34,41 @@
     align-items: center;
     padding-right: 100px;
     font-weight: 550;
+    margin-left: 20px;
 }
 
 .center-content h1 {
     font-weight: 700;
+    padding: 20px;
+    margin-left: 10px;
 }
 
+.video-container h2{
+     color: white;
+ }
+ .card-img-top{
+    width: 400px;
+    height: 400px;
+
+ }
+
+ .whytext {
+  
+    font-size: x-large;
+    color: white;
+    padding-left: 30px;
+    
+  }
+  
+  .whyimage {
+    padding-left: 100px; 
+  }
+  .bg {
+    background-color: black;
+    width: 100vw;
+    height: auto; 
+    max-height: 600px;
+  }
 
 
 
