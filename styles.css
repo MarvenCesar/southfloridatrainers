@@ -39,7 +39,7 @@
 
 .center-content h1 {
     font-weight: 700;
-    padding: 20px;
+    padding: 50px;
     margin-left: 10px;
 }
 
@@ -54,7 +54,7 @@
 
  .whytext {
   
-    font-size: larger;
+    font-size: x-large;
     padding-left: 80px;
     
   }
@@ -70,6 +70,51 @@
   }
 
 
+.custom{
+    padding: auto;
+    padding-left: 20px;
+}
+
+
+#clientCarousel img {
+    object-fit: contain;
+}
+#clientCarousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.aspect-ratio-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    overflow: hidden;
+}
+
+
+.carousel-item {
+    transition: transform 2s ease; 
+}
+.carousel-inner img {
+    max-height: 300px; 
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bg{
+    padding-bottom: 700px;
+}
+
+.custom4{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+   
+    width: 100%
+}
 
 
 
